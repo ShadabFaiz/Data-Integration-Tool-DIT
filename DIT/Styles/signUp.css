@@ -1,0 +1,92 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #0E1013;
+}
+h1
+{
+	color: #4CAF50;
+	transition:all 2s;
+	size:10px,10px;
+}
+
+#signUp
+{
+	color:white;
+	text-align:center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+input[type=text]{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+   
+    border-radius: 12px;
+    box-sizing: border-box;
+	-webkit-transition: all 2s;
+	transition:all 2s,transform 3s;
+
+}
+
+input[type=password] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 12px;
+    box-sizing: border-box;
+	-webkit-transition: all 2s;
+	transition:all 2s,transform 3s;
+	
+}
+input[type=submit] {
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+	text-decoration: none;
+
+}
+
+ input[type=submit]:hover {
+    background-color: white;
+	color:green;
+	width:300px;
+	text-decoration: none;
+
+}
+
+.link
+{
+	width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;	
+	text-decoration: none;
+
+}
+
+.link:hover, .link:active
+{
+    background-color: white;
+    color: green;
+    padding: 5px 30px;
+
+}
+
+.warning
+{
+	color:red;
+}

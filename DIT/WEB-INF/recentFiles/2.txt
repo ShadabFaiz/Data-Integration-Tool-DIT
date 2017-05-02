@@ -1,0 +1,14 @@
+Original Query
+INSERT INTO Customers (CustomerName, City, Country) VALUES ('Cardinal', 'Stavanger', 'Norway'); 
+
+------------------------------------------
+
+ Converted Query
+
+db.Customers.insertOne(
+	{
+	CustomerName:'Cardinal',
+	 City: 'Stavanger',
+	 Country: 'Norway',
+	}
+);

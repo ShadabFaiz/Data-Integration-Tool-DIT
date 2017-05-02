@@ -1,0 +1,11 @@
+Original Query
+ select * from table where id=34,so=34; 
+
+------------------------------------------
+
+ Converted Query
+
+db.tabl.find(
+	{
+	 id:34,so,
+	});

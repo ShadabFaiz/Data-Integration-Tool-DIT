@@ -1,0 +1,11 @@
+Original Query
+select * from table where rollno=34,id=34,col1=23; 
+
+------------------------------------------
+
+ Converted Query
+
+db.tabl.find(
+	{
+	 rollno:34,id,
+	});

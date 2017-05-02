@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+	background:black;
+	text-align: center;
+}
+
+.link
+{
+	font-size:25px; 
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+	position:relative;
+	top:200px;
+	-webkit-transition: all 1s;
+	transition:all 1s;
+	text-decoration: none;
+}
+
+.link:hover, .link:active
+{
+    background-color: white;
+    color: green;
+    padding: 15px 30px;
+}
+
+
+h1
+{
+	position:relative;
+	top:100px;
+	bottom:20px;
+	color: #4CAF50;
+	transition:all 2s;
+	size:10px,10px;
+}
