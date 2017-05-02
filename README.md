@@ -14,8 +14,8 @@ At the current stage,it only supports MongoDB-to-MySQL and vice-versa.However si
  well, you wouldn't be here if you dont know.Try it kiddo.  
  
 # Authentication information for login.  
-  **Username:** SGoobar.  
-  **Password:** SNisha.  
+  **Username:** temp.  
+  **Password:** temp.  
    
 # If you think you can make it better,then do it.  
 # Where to see it live on the net?  
