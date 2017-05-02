@@ -38,4 +38,4 @@ At the current stage,it only supports MongoDB-to-MySQL and vice-versa.However si
        were created.This could have caused in creation of high number of 'Recentfile' with same query.This is fixed now.  
 # ver 0.3
     1. Earlier when user has logged out,even then with back button on web browser,anyone can uses the application  
-       without login.This issuehas been solved
+       without login.This issue has been solved
