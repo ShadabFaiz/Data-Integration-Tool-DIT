@@ -29,7 +29,7 @@ At the current stage,it only supports MongoDB-to-MySQL and vice-versa.However si
     5.show tables;
     6.drop table_Name;
     7.select * from table_Name;
-    8.select * from table_Name where col1>2 and col<3; (only >, <, =, >=, <= conditions are supported.
+    8.select * from table_Name where col1>2 and col<3; (only >, <, =, >=, <= conditions are supported.)
     9.select col1,col2,col3 from table_Name;
     10.Combination of 8 & 9.
   
