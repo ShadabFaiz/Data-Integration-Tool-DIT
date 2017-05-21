@@ -13,9 +13,9 @@ At the current stage,it only supports MongoDB-to-MySQL and vice-versa.However si
     
 # HOW TO RUN?  
  ## Installation
-    1. Install JDK 1.8 or above (provided with the cd).
-    2. Install Tomcat Server v8.3 or above (provided with the cd).
-    3. Install MySql v5.5 or above (provided with the cd).
+    1. Install JDK 1.8 or above.
+    2. Install Tomcat Server v8.3 or above.
+    3. Install MySql v5.5 or above.
 ## Running
     4. Copy the directory “DIT” to the “webapp” directory of Tomcat Server.The default location is C:\Program Files\Tomcat\webapps\.Make    sure there is no other directory with the name “DIT”.
     5. Open a web browser.
