@@ -4,14 +4,24 @@ At the current stage,it only supports MongoDB-to-MySQL and vice-versa.However si
 # Prerequisite:  
     1.WebServer like Tomcat/Weblogic/Glassfish.
     2.JDK (no brain required for this.).
-    3.A Web Broser.
+    3. MySql v5.5 or above.
+    4.A Web Broser.
     
 # Technologies Use:  
   **FRONT-END:** HTML, CSS.  
   **BACK-END:** JSP, Tomcat v8.5, JDK v1.8.0_121.
     
 # HOW TO RUN?  
- well, you wouldn't be here if you dont know.Try it kiddo.  
+ ## Installation
+    1. Install JDK 1.8 or above (provided with the cd).
+    2. Install Tomcat Server v8.3 or above (provided with the cd).
+    3. Install MySql v5.5 or above (provided with the cd).
+## Running
+    4. Copy the directory “DIT” to the “webapp” directory of Tomcat Server.The default location is C:\Program Files\Tomcat\webapps\.Make    sure there is no other directory with the name “DIT”.
+    5. Open a web browser.
+    6. In the address bar, type: localhost:port-no/DIT
+     Default port no: 8080
+  
  
 # Authentication information for login.  
   **Username:** temp.  
